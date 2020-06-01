@@ -74,7 +74,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 ---
 #### Inspiration
 
-- [Front End Challenge Info](https://github.com/Significa/frontend-challenge)
+- [Significa Front End Challenge Info](https://github.com/Significa/frontend-challenge)
 - [API](http://www.omdbapi.com/)
 - [Thanks for the Help from Macx](http://macx.im/react-movie-app/)
 - [Thanks for the Help from jogeshpi03](https://github.com/jogeshpi03/omdb-react)
