@@ -1,5 +1,7 @@
 # Search Movies
 
+<a href="https://www.buymeacoffee.com/vanss472" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a>
+
 ## Overview
 
 React Front End Challenge from Significa(Portugal based digital studio) where I have decided to do as my own little project.
