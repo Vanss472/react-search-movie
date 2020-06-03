@@ -16,9 +16,7 @@ const MovieList: React.FunctionComponent<MovieListProps> = ({ items }: MovieList
   <Container>
     <M.List>
       {items.map(item => (
-        <M.ListItem key={item.imdbID}>
-          <PosterImage item={item} />
-        </M.ListItem>
+        <PosterImage key={item.imdbID} item={item} />
       ))}
     </M.List>
   </Container>

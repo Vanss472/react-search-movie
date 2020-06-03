@@ -11,7 +11,3 @@ export const List = styled.ul`
   margin-top: ${rem(32)};
   margin-bottom: ${rem(32)};
 `
-
-export const ListItem = styled.li`
-  position: relative;
-`
