@@ -5,8 +5,11 @@ module.exports = {
     `plugin:prettier/recommended`,
     `prettier/@typescript-eslint`,
     `plugin:react/recommended`, // Uses the recommended rules from @eslint-plugin-react
+    `plugin:testing-library/recommended`,
+    `plugin:testing-library/react`,
+    `plugin:jest-dom/recommended`,
   ],
-  plugins: [`@typescript-eslint`, `prettier`],
+  plugins: [`@typescript-eslint`, `prettier`, `testing-library`, `jest-dom`],
   parserOptions: {
     ecmaVersion: 2019, // Allows for the parsing of modern ECMAScript features
     sourceType: `module`, // Allows for the use of imports

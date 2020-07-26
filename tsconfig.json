@@ -2,9 +2,9 @@
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "lib": ["dom", "es2017"],
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": ["dom", "ES2019"],
     "allowJs": true,
     "checkJs": true,
     "jsx": "react",
