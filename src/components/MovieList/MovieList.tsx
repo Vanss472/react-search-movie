@@ -15,8 +15,8 @@ type MovieListProps = {
 const MovieList: React.FunctionComponent<MovieListProps> = ({ items }: MovieListProps) => (
   <Container>
     <M.List>
-      {items.map(item => (
-        <PosterImage key={item.imdbID} item={item} />
+      {items.map((item, i) => (
+        <PosterImage key={i} item={item} />
       ))}
     </M.List>
   </Container>
