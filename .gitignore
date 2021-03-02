@@ -83,7 +83,6 @@ package-lock.json
 # folders
 dist/
 build/
-layout/
 
 # design
 psd
