@@ -21,7 +21,7 @@ const RatingsBar: React.FunctionComponent<RatingsBarProps> = ({ id, ratings }: R
         </ListItem>
       ))}
     <ListItem>
-      <FavBtn id={`favBtn-${id}`} prepend={<IconFavorite width={16} height={16} />} />
+      <FavBtn buttonId={id} id={`favBtn-${id}`} prepend={<IconFavorite width={16} height={16} />} />
     </ListItem>
   </List>
 )

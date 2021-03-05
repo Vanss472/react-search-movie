@@ -23,7 +23,8 @@ type PropsFromRedux = ConnectedProps<typeof connector>
 type FavoriteButtonProps = PropsFromRedux & {
   className?: string | undefined
   id: string
-  prepend: React.ReactNode
+  prepend?: React.ReactNode
+  buttonId: string
 }
 
 const FavoriteButton: React.FunctionComponent<FavoriteButtonProps> = ({
@@ -32,6 +33,7 @@ const FavoriteButton: React.FunctionComponent<FavoriteButtonProps> = ({
   prepend,
   setToggleFav,
   favorite,
+  buttonId,
 }: FavoriteButtonProps) => {
   const isAdded = favorite ? `is-added` : ``
   const toggleText = favorite ? `Added` : `Add to favorite`
@@ -40,6 +42,7 @@ const FavoriteButton: React.FunctionComponent<FavoriteButtonProps> = ({
     <Button
       clicked={setToggleFav(!favorite)}
       className={`${className} ${isAdded}`}
+      buttonId={buttonId}
       id={id}
       text={`${toggleText}`}
       type="button"
