@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 
 interface ContainerProps {
   children: React.ReactNode
-  movieId: string
+  movieId?: string
 }
 
 const Container: React.FunctionComponent<ContainerProps> = ({ children, movieId }: ContainerProps) => (
