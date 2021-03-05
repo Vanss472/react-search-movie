@@ -20,14 +20,9 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children }: LayoutProps)
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1180,
-        }}
-      >
+      <>
         <main>{children}</main>
-      </div>
+      </>
     </ThemeProvider>
   )
 }
