@@ -8,9 +8,11 @@ const Wrapper = styled.div`
 
 interface ContainerProps {
   children: React.ReactNode
+  movieId: string
 }
-const Container: React.FunctionComponent<ContainerProps> = ({ children }: ContainerProps) => (
-  <Wrapper>{children}</Wrapper>
+
+const Container: React.FunctionComponent<ContainerProps> = ({ children, movieId }: ContainerProps) => (
+  <Wrapper id={movieId}>{children}</Wrapper>
 )
 
 export default Container

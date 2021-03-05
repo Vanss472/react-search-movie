@@ -28,7 +28,7 @@ type MovieDetailProps = {
 }
 
 const MovieDetail: React.FunctionComponent<MovieDetailProps> = ({ data }: MovieDetailProps) => (
-  <Container>
+  <Container movieId={data.imdbID}>
     <BackBtn to="/">
       <IconBackButton width={24} height={24} />
     </BackBtn>
