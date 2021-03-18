@@ -24,7 +24,11 @@ const PosterImage: React.FunctionComponent<PosterImageProps> = ({ item }: Poster
         />
         <P.Overlay className="favorite-title-wrapper">
           <P.IconWrapper>
-            <P.FavBtn id={`posterFavBtn-${item.imdbID}`} prepend={<IconFavorite width={24} height={24} />} />
+            <P.FavBtn
+              buttonId={item.imdbID}
+              id={`posterFavBtn-${item.imdbID}`}
+              prepend={<IconFavorite width={24} height={24} />}
+            />
           </P.IconWrapper>
           <P.TitleYearWrapper>
             <Link to={`/movie/${item.imdbID}`}>
